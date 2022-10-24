@@ -57,11 +57,11 @@ def transform_vertex_v3(vertex, scale, translate):
 def crear_v3():
 
 
-    # # kakashi
-    # scale_factor = (9,9,15)
-    # translate_factor = (500, 50,0)
+    # kakashi
+    scale_factor = (9,9,15)
+    translate_factor = (500, 50,0)
 
-    # cube = Obj.Obj('./Objts/kakashi.obj')
+    cube = Obj.Obj('./Objts/kakashi.obj')
 
     # # Faraon
     # scale_factor = (125,125,250)
