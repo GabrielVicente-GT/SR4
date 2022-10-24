@@ -360,7 +360,7 @@ def triangulo_version_dos(A,B,C):
     # colorB = (0,255,0)
     # colorC = (0,0,255)
 
-    luz = V3(0,0,1)
+    luz = V3(0,0,-1)
     normal_triangulo =  (C-A) * (B-A)
     # # print("A> ",A)
     # # print("B> ",B)

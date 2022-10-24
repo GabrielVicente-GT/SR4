@@ -58,16 +58,16 @@ def crear_v3():
 
 
     # # kakashi
-    # scale_factor = (9,9,50)
+    # scale_factor = (9,9,15)
     # translate_factor = (500, 50,0)
 
     # cube = Obj.Obj('./Objts/kakashi.obj')
 
-    # Faraon
-    scale_factor = (125,125,250)
-    translate_factor = (525, 50,0)
+    # # Faraon
+    # scale_factor = (125,125,250)
+    # translate_factor = (525, 50,0)
 
-    cube = Obj.Obj('./Objts/faraon.obj')
+    # cube = Obj.Obj('./Objts/faraon.obj')
 
     for face in cube.faces:
         f1 = face[0][0] - 1
